@@ -1,0 +1,1218 @@
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1170px;
+  margin: 0 auto;
+  background: #f5f8fa;
+  overflow: hidden;
+}
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1360px;
+  height: 41px;
+  margin: 28px 0 0 40px;
+  z-index: 3;
+}
+.pic {
+  flex-shrink: 0;
+  position: relative;
+  width: 200px;
+  height: 39px;
+  background: url(./assets/images/215a36ca-0664-4842-8a6d-95657e430ea2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.group-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 476px;
+  height: 40px;
+  z-index: 3;
+  overflow: hidden;
+}
+.wrapper {
+  position: absolute;
+  width: 19.12%;
+  height: 100%;
+  top: 0;
+  left: 80.88%;
+  font-size: 0px;
+  z-index: 8;
+  overflow: hidden;
+}
+.text {
+  display: block;
+  position: relative;
+  height: 17px;
+  margin: 11px 0 0 19px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 10;
+}
+.box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 2px solid #646e7a;
+  z-index: 9;
+  border-radius: 6px;
+}
+.text-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 13.66%;
+  height: 17px;
+  top: calc(50% - 9px);
+  left: 0;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 4;
+}
+.text-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: calc(50% - 9px);
+  left: 22.48%;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 5;
+}
+.text-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: calc(50% - 9px);
+  left: 47.06%;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 6;
+}
+.text-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: calc(50% - 9px);
+  left: 65.34%;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 7;
+}
+.wrapper-2 {
+  position: relative;
+  width: 1358px;
+  height: 2px;
+  margin: 30px 0 0 42px;
+  background: #e0e5e9;
+  z-index: 2;
+}
+.group-3 {
+  position: relative;
+  width: 898px;
+  height: 795px;
+  margin: 85px 0 0 256px;
+  z-index: 80;
+}
+.box-2 {
+  position: absolute;
+  width: 892px;
+  height: 795px;
+  top: 0;
+  left: 6px;
+  background: #ffffff;
+  z-index: 12;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.05);
+}
+.box-3 {
+  position: absolute;
+  width: 312px;
+  height: 795px;
+  top: 0;
+  left: 580px;
+  background: #1179bf;
+  z-index: 24;
+  border-radius: 0 6px 6px 0;
+}
+.wrapper-3 {
+  position: relative;
+  width: 231px;
+  height: 152px;
+  margin: 42px 0 0 44px;
+  font-size: 0px;
+  z-index: 26;
+  overflow: hidden;
+}
+.text-6 {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 0 0 0 2px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 27;
+}
+.group-4 {
+  position: relative;
+  width: 140px;
+  height: 72px;
+  margin: 5px 0 0 0;
+  z-index: 28;
+  overflow: hidden;
+}
+.section {
+  position: absolute;
+  width: 121px;
+  height: 72px;
+  top: 50%;
+  left: 14.29%;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.063px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  transform: translate(0, -50%);
+  z-index: 29;
+}
+.text-7 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 72px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-8 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: calc(50% - 23px);
+  left: 0;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 30;
+}
+.text-a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 229px;
+  height: 48px;
+  margin: 3px 0 0 2px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+  z-index: 31;
+}
+.group-5 {
+  position: relative;
+  width: 170px;
+  height: 96px;
+  margin: 36px 0 0 45px;
+  z-index: 32;
+  overflow: hidden;
+}
+.wrapper-4 {
+  position: absolute;
+  width: 82.94%;
+  height: 96px;
+  top: 50%;
+  left: 18.24%;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+  transform: translate(0, -50%);
+  z-index: 33;
+}
+.text-b {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-c {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-d {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.group-6 {
+  position: absolute;
+  width: 11.76%;
+  height: 95.83%;
+  top: 1.04%;
+  left: 0;
+  z-index: 36;
+}
+.img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 0;
+  background: url(./assets/images/7bcf6ab8-da0a-40c3-a4e3-24e35f39fb33.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 34;
+}
+.pic-2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 16px 0 0 0;
+  background: url(./assets/images/2419ad01-3f9d-4f7a-a7d3-7655cde13155.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 35;
+}
+.img-2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 16px 0 0 0;
+  background: url(./assets/images/499a4f7c-3074-414d-a1af-2187f7bbcc4b.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 36;
+}
+.wrapper-5 {
+  position: relative;
+  width: 184px;
+  height: 51px;
+  margin: 38px 0 0 46px;
+  z-index: 37;
+  overflow: hidden;
+}
+.box-4 {
+  position: relative;
+  width: 186px;
+  height: 50px;
+  margin: 0 0 0 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 38;
+}
+.text-e {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-f {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-10 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-11 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-12 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-13 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-14 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.section-2 {
+  position: relative;
+  width: 180px;
+  height: 4px;
+  margin: -3px 0 0 0;
+  background: #b9f5ff;
+  opacity: 0.503566563129425;
+  z-index: 39;
+}
+.wrapper-6 {
+  position: relative;
+  width: 229px;
+  height: 196px;
+  margin: 41px 0 0 44px;
+  z-index: 40;
+  overflow: hidden;
+}
+.box-5 {
+  position: relative;
+  width: 224px;
+  height: 2px;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  opacity: 0.2005208283662796;
+  z-index: 44;
+}
+.box-6 {
+  position: relative;
+  width: 227px;
+  height: 96px;
+  margin: 41px 0 0 2px;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+  z-index: 41;
+}
+.text-15 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-16 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-17 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.img-3 {
+  position: absolute;
+  width: 17.47%;
+  height: 20.41%;
+  top: 79.59%;
+  left: 0;
+  background: url(./assets/images/c618e780-0056-461f-904d-686cf54cb1b5.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 42;
+}
+.text-18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: calc(50% - -68px);
+  left: 23.58%;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 43;
+}
+.text-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 161px;
+  height: 54px;
+  top: 41px;
+  left: 48px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 79;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.box-7 {
+  position: absolute;
+  width: 580px;
+  height: 2px;
+  top: 119px;
+  left: 0;
+  background: #f5f7fa;
+  z-index: 78;
+}
+.text-1a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 157px;
+  left: 89px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.16px;
+  z-index: 73;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.text-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 198px;
+  left: 306px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 71;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.text-1c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 198px;
+  left: 49px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 63;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.wrapper-7 {
+  position: absolute;
+  width: 227px;
+  height: 36px;
+  top: 222px;
+  left: 49px;
+  background: #edeff2;
+  z-index: 61;
+  border-radius: 4px;
+}
+.text-1d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 13px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 62;
+}
+.section-3 {
+  position: absolute;
+  width: 226px;
+  height: 36px;
+  top: 222px;
+  left: 306px;
+  background: #edeff2;
+  z-index: 69;
+  border-radius: 4px;
+}
+.text-1e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 13px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 70;
+}
+.text-1f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 273px;
+  left: 49px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 67;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.box-8 {
+  position: absolute;
+  width: 370px;
+  height: 36px;
+  top: 297px;
+  left: 49px;
+  background: #edeff2;
+  z-index: 65;
+  border-radius: 5px;
+}
+.text-20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 13px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 66;
+}
+.group-7 {
+  position: absolute;
+  width: 580px;
+  height: 2px;
+  top: 374px;
+  left: 0;
+  background: #f5f7fa;
+  z-index: 59;
+}
+.pic-3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 409px;
+  left: 49px;
+  background: url(./assets/images/a572f37f-2bfb-480d-8617-002c026173e4.png)
+    no-repeat center;
+  background-size: cover;
+  border: 2px solid #548bc5;
+  z-index: 57;
+  border-radius: 50%;
+}
+.text-21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 411px;
+  left: 89px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.16px;
+  z-index: 54;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.text-22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 413px;
+  left: 56px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #548bc5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.14px;
+  z-index: 56;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.text-23 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 460px;
+  left: 49px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 52;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.box-9 {
+  position: absolute;
+  width: 483px;
+  height: 36px;
+  top: 484px;
+  left: 49px;
+  background: #edeff2;
+  z-index: 48;
+  border-radius: 4px;
+}
+.text-24 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 13px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 49;
+}
+.text-25 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 154px;
+  height: 17px;
+  top: 9px;
+  left: 262px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 50;
+}
+.text-26 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 36px;
+  height: 17px;
+  top: 9px;
+  left: 431px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 51;
+}
+.group-8 {
+  position: absolute;
+  width: 580px;
+  height: 2px;
+  top: 561px;
+  left: 0;
+  background: #f5f7fa;
+  z-index: 46;
+}
+.section-4 {
+  position: absolute;
+  width: 483px;
+  height: 52px;
+  top: 602px;
+  left: 49px;
+  background: #038e7d;
+  z-index: 16;
+  border-radius: 5px;
+}
+.text-27 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 483px;
+  height: 22px;
+  top: 13px;
+  left: 0;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.4px;
+  z-index: 17;
+}
+.pic-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 677px;
+  left: 124px;
+  background: url(./assets/images/6ff11584-c045-41f9-b7be-65e660a1e280.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+}
+.box-a {
+  position: absolute;
+  width: 303px;
+  height: 16px;
+  top: 678px;
+  left: 154px;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: -0.01px;
+  z-index: 20;
+}
+.text-28 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.406px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.text-29 {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.406px;
+  text-align: left;
+  letter-spacing: -0.01px;
+}
+.img-4 {
+  position: absolute;
+  width: 92px;
+  height: 20.101px;
+  top: 728px;
+  left: 246px;
+  background: url(./assets/images/a705b309-680d-4696-b9cb-993cb107cf80.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 22;
+}
+.wrapper-8 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 90px;
+  left: 0;
+  z-index: 80;
+  overflow: hidden;
+}
+.pic-5 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 65px;
+  left: 55px;
+  background: url(./assets/images/37929672-2e83-4e0a-ac1b-4921c2e51b81.png)
+    no-repeat center;
+  background-size: cover;
+  border: 2px solid #548bc5;
+  z-index: 76;
+  border-radius: 50%;
+}
+.text-2a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 69px;
+  left: 62px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #548bc5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.14px;
+  z-index: 75;
+}
+.box-b {
+  position: relative;
+  width: 867px;
+  height: 17px;
+  margin: 33px 0 0 287px;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 13;
+}
+.text-2b {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #636b6f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+}
+.text-2c {
+  position: relative;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #31708f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+}
